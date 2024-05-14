@@ -1,4 +1,4 @@
-title:              HILA
+title:              HILA Home
 email:              
 description:        A HPC framework and suite of Lattice Quantum Field Theory simulations
 author:             HILA Maintainer and Contributors
@@ -11,6 +11,9 @@ github_username:    xxxxx
 gitlab_username:    xxxxx
 bitbucket_username:    xxxxx 
 linkedin_username:
+
+# documentation page
+docs_url: "https://cft-hy.github.io/HILA"
 
 # Add your google-analytics ID here to activate google analytics
 # google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
