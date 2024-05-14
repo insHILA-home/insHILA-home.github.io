@@ -5,15 +5,29 @@ description: The Vision, Mission and Developing Philosophy
 background: '/img/AxionStringNetwork.jpg'
 ---
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quisquam ut perspiciatis, repudiandae nulla animi iste vel,
-praesentium repellendus molestias aliquid consequatur, earum rem qui error voluptates eius enim consequuntur!</p>
+<p>Hila (lattice in Finnish) is a C++ lattice field theory programming framework, aimed at HPC simulations.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex alias, earum consectetur quia natus ducimus voluptate explicabo,
- hic porro reprehenderit, quasi? Tenetur ipsum distinctio laboriosam perspiciatis officiis dolore, architecto id.</p>
+<p>Purpose: make writing applications straightforward and intuitive, while producing optimized executables for 
+    different (super)computing platforms (parallelization with MPI, GPU computing with Cuda or HIP, AVX vectorization, 
+    etc.).  Details of the parallelization and computing architecture are hidden from the user's view, and 
+    all applications automatically run on present or future platform.
+    Write once -- run anywhere.</p>
 
-<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-Totam inventore aspernatur repellendus incidunt adipisci modi voluptates recusandae iste eligendi, repudiandae corporis quod aut, optio! 
-Explicabo quaerat unde voluptatem! Itaque, eum!</p>
+<p class="mb-5">Hila is based on hila preprocessor "hilapp", which is a C++ source-to-source transformer using the 
+    [libtooling](https://clang.llvm.org/docs/LibTooling.html) toolbox of the
+    [Clang](https://clang.llvm.org/) compiler.
+    It converts application C++ to platform-specific C++ code,
+    which is passed to appropriate compilers for the platforms.</p>
+
+<p>Hila is based on hila preprocessor "hilapp", which is a C++ source-to-source transformer using the 
+    [libtooling](https://clang.llvm.org/docs/LibTooling.html) toolbox of the
+    [Clang](https://clang.llvm.org/) compiler.
+    It converts application C++ to platform-specific C++ code,
+    which is passed to appropriate compilers for the platforms.</p>    
+
+<p>Behind the scenes hila takes care of MPI layout and communications.  It lays out the 
+    lattice fields differently for different computing platforms: 'array of structures' (standard),
+    'array of structures of vectors' (AVX-type), or 'structure of arrays' (GPU-type).</p>    
 
 
 <div class="clearfix">
