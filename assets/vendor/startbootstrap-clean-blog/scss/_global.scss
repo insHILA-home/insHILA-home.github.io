@@ -1,6 +1,6 @@
 // Global styling for this template
 body {
-    font-size: 25px;
+    font-size: 20px;
     color: $gray-900;
 }
 
@@ -12,6 +12,11 @@ p {
         text-decoration: underline;
     }
 }
+
+p.thick {
+    font-weight: bold;
+}
+  
 
 h1,
 h2,
