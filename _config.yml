@@ -2,6 +2,7 @@ title:              HILA Home
 email:              
 description:        A HPC framework and suite of Lattice Quantum Field Theory simulations
 author:             HILA Maintainer and Contributors
+maintainer_url:     "https://www.mv.helsinki.fi/home/rummukai"    
 baseurl:            "/"
 url:                "https://insHILA-home.github.io"
 
