@@ -8,9 +8,9 @@ url:                "https://insHILA-home.github.io"
 
 # Social Profiles
 twitter_username:   xxxxx
-github_username:    xxxxx
-gitlab_username:    xxxxx
-bitbucket_username:    xxxxx 
+github_repo:    "CFT-HY/HILA/tree/master"
+gitlab_repo:    xxxxx
+bitbucket_repo:    xxxxx 
 linkedin_username:
 
 # documentation page
@@ -21,8 +21,8 @@ docs_url: "https://cft-hy.github.io/HILA"
 
 # Build settings
 markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
+# paginate:           5
+# paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
