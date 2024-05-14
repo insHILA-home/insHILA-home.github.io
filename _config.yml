@@ -1,15 +1,15 @@
 title:              HILA
-email:              your-email@example.com
+email:              
 description:        A HPC framework and suite of Lattice Quantum Field Theory simulations
 author:             HILA Maintainer and Contributors
 baseurl:            "/"
 url:                "https://insHILA-home.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
-instagram_username:  
+twitter_username:   xxxxx
+github_username:    xxxxx
+gitlab_username:    xxxxx
+bitbucket_username:    xxxxx 
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
