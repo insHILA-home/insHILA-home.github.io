@@ -10,9 +10,9 @@ baseurl:            "/"
 url:                "https://insHILA-home.github.io"
 
 # Social Profiles
-twitter_username:   xxxxx
-github_repo:    "CFT-HY/HILA/tree/master"
-gitlab_repo:    xxxxx
+twitter_username:   
+github_repo:      "CFT-HY/HILA/tree/master"
+gitlab_repo:       xxxxx
 bitbucket_repo:    xxxxx 
 linkedin_username:
 
