@@ -141,7 +141,7 @@
 
 .navbar-nav-scroll {
   max-height: $navbar-nav-scroll-max-height;
-  overflow-y: visible;
+  overflow-y: auto;
 }
 
 // Generate series of `.navbar-expand-*` responsive classes for configuring
