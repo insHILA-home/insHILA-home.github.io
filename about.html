@@ -4,6 +4,15 @@ title: About HILA project and Our Goal
 description: The Vision, Mission and Developing Philosophy
 background: '/img/AxionStringNetwork.jpg'
 ---
+<p class="fs-3 fw-bold">
+    As for user, living in a world, where even hand-holding entertainment devices rely on 
+    <a herf="https://en.wikipedia.org/wiki/Heterogeneous_System_Architecture">Heterogeneous System Architecture (HSA)</a>, is wonderful.
+    The computing powers provided both by multiple CPU cores and Streaming Multiprocessors from GPUs make us happy as user while also give 
+    us many challenges as developer of CFT simulation softwares. Routines, which could release us from fighting against computing technologies 
+    on computer systems with HSA and then allow us focus on models and algorithms, are certainly expected. 
+    This is what HILA project is offering.   
+</p>
+
 
 <p>Hila (lattice in Finnish) is a C++ lattice field theory programming framework, aimed at HPC simulations.</p>
 
@@ -11,13 +20,15 @@ background: '/img/AxionStringNetwork.jpg'
     different (super)computing platforms (parallelization with MPI, GPU computing with Cuda or HIP, AVX vectorization, 
     etc.).  Details of the parallelization and computing architecture are hidden from the user's view, and 
     all applications automatically run on present or future platform.
-    Write once -- run anywhere.</p>
+    Write once -- run anywhere.
+</p>
 
 <p class="mb-5">Hila is based on hila preprocessor "hilapp", which is a C++ source-to-source transformer using the 
     <a href="https://clang.llvm.org/docs/LibTooling.html">libtooling</a> toolbox of the
     <a href="https://clang.llvm.org">Clang</a> compiler.
     It converts application C++ to platform-specific C++ code,
-    which is passed to appropriate compilers for the platforms.</p>
+    which is passed to appropriate compilers for the platforms.
+</p>
 
 <p>Behind the scenes hila takes care of MPI layout and communications.  It lays out the 
     lattice fields differently for different computing platforms: 'array of structures' (standard),
