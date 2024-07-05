@@ -4,17 +4,23 @@ title: About HILA project and Our Goal
 description: The Vision, Mission and Developing Philosophy
 background: '/img/AxionStringNetwork.jpg'
 ---
-<p class="fs-3 fw-bold">
-    As for user, living in a world, where even hand-holding entertainment devices rely on 
-    <a herf="https://en.wikipedia.org/wiki/Heterogeneous_System_Architecture">Heterogeneous System Architecture (HSA)</a>, is wonderful.
-    The computing powers provided both by multiple CPU cores and Streaming Multiprocessors from GPUs make us happy as user while also give 
-    us many challenges as developer of CFT simulation softwares. Routines, which could release us from fighting against computing technologies 
-    on computer systems with HSA and then allow us focus on models and algorithms, are certainly expected. 
+<p> As an user, living in a world, where even hand-holding entertainment devices rely on 
+    <a herf="https://en.wikipedia.org/wiki/Heterogeneous_System_Architecture">Heterogeneous System Architecture (HSA)</a>, is wonderful and enjoyable.
+    The computing powers provided both by multiple CPU cores and Streaming Multiprocessors from GPUs make us happy as users while also give 
+    us many challenges as developers of CFT simulation softwares. Routines, which could release us from struggling on computing technologies 
+    of computing systems with HSA and then allow us focus on models and algorithms, are always expected and welcomed. 
     This is what HILA project is offering.   
 </p>
 
-
-<p>Hila (lattice in Finnish) is a C++ lattice field theory programming framework, aimed at HPC simulations.</p>
+<p>Developed with <a href="https://en.wikipedia.org/wiki/C%2B%2B14">modern C++</a> standards, HILA (lattice in Finnish) is a 
+    <a href="https://en.wikipedia.org/wiki/Lattice_field_theory">Lattice Field Theory</a> programming framework, targeted at HPC simulations.
+    On one hand, highly comprehensive class templates of commonly used mathematical and physical objects such as group generators of non-Abliean SU(2), SU(3) Lie groups,
+    fields of vectors and tensors on space-time manifolds are carefully implemented to make writing CFT applications straightforward and intuitive through HILA's APIs.
+    On the other hand, depending on the hardware platform, optimized executables for specific hardware architectures/protocols are produced. 
+    This platform-determined optimizations are achievable on <a href="https://en.wikipedia.org/wiki/Message_Passing_Interface">MPI</a> parallelization, 
+    <a href="https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units">GP-GPU</a> parallelization 
+    as well as <a href="https://en.wikipedia.org/wiki/Advanced_Vector_Extensions">AVX vectorization</a> vectorization.
+</p>
 
 <p>Purpose: make writing applications straightforward and intuitive, while producing optimized executables for 
     different (super)computing platforms (parallelization with MPI, GPU computing with Cuda or HIP, AVX vectorization, 
