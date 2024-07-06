@@ -5,7 +5,7 @@ description: The Vision, Mission and Developing Philosophy
 background: '/img/AxionStringNetwork.jpg'
 ---
 <p> As an user, living in digitalized era, where even hand-holding devices rely on 
-    <a herf="https://en.wikipedia.org/wiki/Heterogeneous_System_Architecture">Heterogeneous System Architecture (HSA)</a>, is wonderful and enjoyable in many ways.
+    <a herf="https://en.wikipedia.org/wiki/Heterogeneous_System_Architecture">Heterogeneous System Architecture</a> (HSA), is wonderful and enjoyable in many ways.
     The computing powers provided both by multiple CPU cores and 
     <a href="https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#hardware-implementation">Streaming Multiprocessors</a> from GPUs pleasure us as users while also give 
     us many challenges as developers of CFT simulation softwares.   
@@ -18,21 +18,18 @@ background: '/img/AxionStringNetwork.jpg'
 
 <p class="font-weight-bold">This is what HILA project could offer. </p>
 
-<p>Developed with <a href="https://en.wikipedia.org/wiki/C%2B%2B14">modern C++</a> standards, HILA (lattice in Finnish) is a 
+<p>Developed under <a href="https://en.wikipedia.org/wiki/C%2B%2B14">modern C++</a> standards, HILA is a 
     <a href="https://en.wikipedia.org/wiki/Lattice_field_theory">Lattice Field Theory</a> programming framework, targeted at HPC simulations.
-    On one hand, highly comprehensive class templates of commonly used mathematical and physical objects such as group generators of non-Abliean SU(2), SU(3) Lie groups,
-    fields of vectors and tensors on space-time manifolds are carefully implemented to make writing CFT applications straightforward and intuitive through HILA's APIs.
-    On the other hand, depending on the hardware platform, optimized executables for specific hardware architectures/protocols are produced. 
-    This platform-determined optimizations are achievable on <a href="https://en.wikipedia.org/wiki/Message_Passing_Interface">MPI</a> parallelization, 
+    Design features of HILA include (1) comprehensive class templates of commonly used mathematical and physical objects, such as matrix, which
+    generally work as operators of Lie algebra for non-Abelian Lie groups. 
+    A carefully implemented field class template over lattice can accept tensors with arbitrary rank. 
+    This make writing CFT applications straightforward and intuitive through HILA's APIs. 
+    (2) Depending on the hardware platform, optimized executables for specific hardware architectures/protocols will be produced. 
+    Details of the implementations of parallelization on different computing architecture are hidden from the HILA's user,   
+    this means same application source codes built upon HILA's APTs could automatically run on platforms with different hardware architectures.
+    This potability is supported on <a href="https://en.wikipedia.org/wiki/Message_Passing_Interface">MPI</a> parallelization, 
     <a href="https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units">GP-GPU</a> parallelization 
     as well as <a href="https://en.wikipedia.org/wiki/Advanced_Vector_Extensions">AVX vectorization</a> vectorization.
-</p>
-
-<p>Purpose: make writing applications straightforward and intuitive, while producing optimized executables for 
-    different (super)computing platforms (parallelization with MPI, GPU computing with Cuda or HIP, AVX vectorization, 
-    etc.).  Details of the parallelization and computing architecture are hidden from the user's view, and 
-    all applications automatically run on present or future platform.
-    Write once -- run anywhere.
 </p>
 
 <p class="mb-5">Hila is based on hila preprocessor "hilapp", which is a C++ source-to-source transformer using the 
