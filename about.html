@@ -27,10 +27,13 @@ background: '/img/AxionStringNetwork.jpg'
     generally work as operators of Lie algebra for non-Abelian Lie groups. 
     A carefully implemented field class template over lattice can accept tensors with arbitrary rank. 
     This make writing CFT applications straightforward and intuitive through HILA's APIs. 
-    Behind the scenes hila takes care of MPI layout and communications.  It lays out the 
-    lattice fields differently for different computing platforms: 'array of structures' (standard),
-    'array of structures of vectors' (AVX-type), or 'structure of arrays' (GP-GPU-type).
 </p>
+
+<p>Behind the scenes hila takes care of MPI layout and communications. 
+    It lays out the lattice fields differently for different computing platforms: 'array of structures' (standard),
+   'array of structures of vectors' (AVX-type), or 'structure of arrays' (GP-GPU-type).
+</p>
+
 
 <p>(2) Depending on the hardware platform, optimized executables for specific hardware architectures/protocols will be produced. 
     Details of the implementations of parallelization on different computing architecture are hidden from the HILA's user,   
