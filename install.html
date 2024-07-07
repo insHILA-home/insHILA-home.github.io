@@ -11,7 +11,7 @@ background: '/img/AxionStringNetwork.jpg'
 <ul class="list-unstyled">
       <ul>
         <li>Compiling S2S transcompiler hilapp and install it onto desired path.</li>
-        <li>Compiling simulation codes with necessary environment variables, which usually will invoke hardware architecture supports from HILA.</li>
+        <li>Compiling simulation codes with necessary environment variables, which will invoke hardware architecture supports from HILA.</li>
       </ul>
 </ul>
 
@@ -26,7 +26,7 @@ background: '/img/AxionStringNetwork.jpg'
  <a href="https://docs.freebsd.org/en/">FreeBSD</a> system, which is significantly different from Linux family of operating system 
  in the aspects of system components.
  Users and developers using HILA's APIs are welcomed to send their patches of their own systems back to HILA's repository, see more on 
- <a href=""{{ "/community" | relative_url }}"">community</a> about contributions and license.
+ <a href="{{ "/community" | relative_url }}">community</a> about contributions and license.
 </p>
 
 <p class="lead">
@@ -34,7 +34,13 @@ background: '/img/AxionStringNetwork.jpg'
   <a href="https://www.gnu.org/software/make/">GNU make</a>.
   On Debian/Ubuntu system, all necessary dependencies for building HILA can be easily installed through 
   <a href="https://en.wikipedia.org/wiki/APT_(software)">APT</a>, see details from
-  <a href="{{ site.docs_url | append: 'dependencies_and_installation.html' }}">documentation</a>.
+  <a href="{{ site.docs_url | append: '/dependencies_and_installation.html' }}">documentation</a>.
+</p>
+
+<p class="lead">
+  In specific situation, compiling hilapp may be not easy or totally impossible on certain supercomputer platforms. 
+  This problem is caused by lack of module support LLVM, which is necessary as described in 
+  <a href="{{ "/about" | relative_url }}">About</a> page.
 </p>
 <!--
 <div class="clearfix">
