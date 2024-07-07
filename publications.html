@@ -6,16 +6,13 @@ background: '/img/AxionStringNetwork.jpg'
 ---
 
 <p>
- Purpose: make writing applications straightforward and intuitive, while producing optimized executables for 
- different (super)computing platforms (parallelization with MPI, GPU computing with Cuda or HIP, AVX vectorization, 
- etc.).  Details of the parallelization and computing architecture are hidden from the user's view, and 
- all applications automatically run on present or future platform.
- Write once -- run anywhere.
+HILA's APIs have wild range of applications. They can be used for case as simple as solving a partial differential equation,
+and also fully support Monte Carlo simulations of a lagrangian. Here is the list of work built upon HILA. 
 </p>
  
 <div class="row g-5 mb-5">
     <div>
-      <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
+      <!--<h4 class="fw-bold border-bottom pb-3 mb-5"></h3>-->
         {% for item in site.data.publist.pub %}
           <p><a href="{{ item.url }}">{{ item.title }}</a></p>
         {% endfor %}
