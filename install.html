@@ -51,26 +51,30 @@ background: '/img/AxionStringNetwork.jpg'
   <a href="{{ "/about" | relative_url }}">About</a> page.
 </p>
 
-<ul class="list-unstyled">
-    <li>There are three major ways to over come this issue:
-      <ul>
-        <li>Users could compile hilapp and link it statically on their own computer with LLVM, and then copy the static-linked binary of hilapp into supercomputer, see detail from 
-            <a href="{{ site.docs_url | append: '/dependencies_and_installation.html' }}">documentation</a>.   
-            This solution only works when users' computer has same CPU architecture as the supercomputer's. 
-            In most case, 
-            <a href="https://en.wikipedia.org/wiki/X86-64">x86_64</a> is the architecture under concerning.
-        </li>
-        <li> Many HPC systems has 
-            <a href="https://spack.readthedocs.io/en/latest/">Spack</a> installed, and in common case, multiple versions of Spack are installed as modules. 
-            As a source trees management and building tool dedicated on supercomputer with module and 
-            <a href="https://en.wikipedia.org/wiki/Slurm_Workload_Manager">slurm</a> available,
-            spack is recommended tool to compile-install third-party dependencies with optimized configurations on supercomputer.  
-        </li>
-        <li> Containerization is also a effective way to by pass dependencies problem of LLVM
-        </li>
-      </ul>
-    </li>
-  </ul>
+<p class="lead">
+  There are three major ways to over come this issue:
+</p>
+
+<p class="lead">
+  (1) Users could compile hilapp and link it statically on their own computer with LLVM, and then copy the static-linked binary of hilapp into supercomputer, see detail from 
+  <a href="{{ site.docs_url | append: '/dependencies_and_installation.html' }}">documentation</a>.   
+  This solution only works when users' computer has same CPU architecture as the supercomputer's. 
+  In most case, 
+  <a href="https://en.wikipedia.org/wiki/X86-64">x86_64</a> is the architecture under concerning.
+</p>
+
+<p class="lead">
+  (2) Many HPC systems has 
+  <a href="https://spack.readthedocs.io/en/latest/">Spack</a> installed, and in common case, multiple versions of Spack are installed as modules. 
+  As a source trees management and building tool dedicated on supercomputer with module and 
+  <a href="https://en.wikipedia.org/wiki/Slurm_Workload_Manager">slurm</a> available,
+  spack is recommended tool to compile-install third-party dependencies with optimized configurations on supercomputer.  
+</p>
+
+<p class="lead">
+  (3) Containerization is also a effective way to by pass dependencies problem of LLVM.
+</p>
+
 <!--
 <div class="clearfix">
     <a class="btn btn-primary float-right" href="{{ site.docs_url }}">Go to Documentations</span> &rarr;</a>
