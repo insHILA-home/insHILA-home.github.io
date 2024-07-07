@@ -10,11 +10,32 @@ background: '/img/AxionStringNetwork.jpg'
 </p>
 <ul class="list-unstyled">
       <ul>
-        <li>Compiling S2S transcompiler hilapp and install it onto desired path</li>
+        <li>Compiling S2S transcompiler hilapp and install it onto desired path.</li>
         <li>Compiling simulation codes with necessary environment variables, which usually will invoke hardware architecture supports from HILA.</li>
       </ul>
 </ul>
 
+<p class="lead">
+ HILA is developed on Debian/Ubuntu branch of 
+ <a href="https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy">GNU/Linux</a> operating system.
+ It has been proven many times that HILA's utilities also works well on 
+ <a href="https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9"> Red Hat Enterprise Linux</a>
+ as well as
+ <a href="https://documentation.suse.com/en-us/sles/15-SP6/"> SUSE Linux Enterprise</a>.
+ After necessary configurations, simulation codes of HILA also has been compiled on 
+ <a href="https://docs.freebsd.org/en/">FreeBSD</a> system, which is significantly different from Linux family of operating system 
+ in the aspects of system components.
+ Users and developers using HILA's APIs are welcomed to send their patches of their own systems back to HILA's repository, see more on 
+ <a href=""{{ "/community" | relative_url }}"">community</a> about contributions and license.
+</p>
+
+<p class="lead">
+  HILA's utilities, including hialpp, are configured and built through 
+  <a href="https://www.gnu.org/software/make/">GNU make</a>.
+  On Debian/Ubuntu system, all necessary dependencies for building HILA can be easily installed through 
+  <a href="https://en.wikipedia.org/wiki/APT_(software)">APT</a>, see details from
+  <a href="{{ site.docs_url | append: 'dependencies_and_installation.html' }}">documentation</a>.
+</p>
 <!--
 <div class="clearfix">
     <a class="btn btn-primary float-right" href="{{ site.docs_url }}">Go to Documentations</span> &rarr;</a>
