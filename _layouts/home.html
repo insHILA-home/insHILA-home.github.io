@@ -42,7 +42,7 @@ layout: default
 
         <article class="post-preview">
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-            <h4 class="post-title">{{ post.title }}</h4>
+            <h5 class="post-title">{{ post.title }}</h5>
             {% if post.subtitle %}
             <h3 class="post-subtitle">{{ post.subtitle }}</h3>
             <h5 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 80 }}</h5>
