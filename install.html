@@ -24,10 +24,17 @@ background: '/img/AxionStringNetwork.jpg'
  <a href="https://documentation.suse.com/en-us/sles/15-SP6/"> SUSE Linux Enterprise</a>.
  After necessary configurations, simulation codes of HILA also has been compiled on 
  <a href="https://docs.freebsd.org/en/">FreeBSD</a> system, which is significantly different from Linux family of operating system 
- in the aspects of system components.
- Users and developers using HILA's APIs are welcomed to send their patches of their own systems back to HILA's repository, see more on 
- <a href="{{ "/community" | relative_url }}">community</a> about contributions and license.
+ in the aspects of system components. On all systems, download HILA's source tree is done by git clone
 </p>
+
+<ul class="list-group">
+  <li class="list-group-item">$ git clone https://github.com/CFT-HY/HILA.git</li>
+</ul>
+
+<p class="lead">
+    Users and developers using HILA's APIs are welcomed to send their patches of their own systems back to HILA's repository, see more on 
+    <a href="{{ "/community" | relative_url }}">community</a> about contributions and license.
+   </p>
 
 <p class="lead">
   HILA's utilities, including hialpp, are configured and built through 
@@ -37,6 +44,7 @@ background: '/img/AxionStringNetwork.jpg'
   <a href="{{ site.docs_url | append: '/dependencies_and_installation.html' }}">documentation</a>.
 </p>
 
+<h4 class="fw-normal border-bottom pb-3 mb-5">Dependencies On Supercomputer</h4>
 <p class="lead">
   In specific situation, compiling hilapp may be not easy or totally impossible on certain supercomputer platforms. 
   This problem is caused by lack of module support LLVM, which is necessary as described in 
