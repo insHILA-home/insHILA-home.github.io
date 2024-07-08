@@ -2,7 +2,7 @@
 This repository hosts [Jekyll](https://jekyllrb.com/docs/)-based 
 home page of CFT framework HILA. 
 The home page will be rendered as [Github page](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) 
-by utilizing the automation provided Github [branch deployment](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+by utilizing the automation provided by Github [branch deployment](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 The template of [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) is chosen as basis of working. This template is built upon 
 [Bootstrap](https://getbootstrap.com/), which offer continent [CSS/Sass](https://en.wikipedia.org/wiki/CSS) style sheet design.
@@ -10,8 +10,6 @@ The template of [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com
 A pre-rendered test site can be found at [here](https://inshila-home.github.io/). 
 
 ## Structure of site source tree and User guide
-
-Assuming there are no errors and the site is building properly, follow these steps next:
 
 1. Create the following pages if they do not exist already (or change the extension of existing markdown files from `.md` to `.html`):
 
