@@ -4,8 +4,8 @@ home page of CFT framework HILA.
 The home page will be rendered as [Github page](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) 
 by utilizing the automation provided by Github [branch deployment](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-The template of [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) is chosen as basis of working. This template is built upon 
-[Bootstrap](https://getbootstrap.com/), which offer continent [CSS/Sass](https://en.wikipedia.org/wiki/CSS) style sheet design.
+The template [Start Bootstrap - Clean Blog Jekyll](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll) is chosen as basis of working. This template is built upon 
+[Bootstrap](https://getbootstrap.com/), which offer convenient [CSS/Sass](https://en.wikipedia.org/wiki/CSS) style sheet design.
 
 A pre-rendered test site can be found at [here](https://inshila-home.github.io/). 
 
