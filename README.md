@@ -1,26 +1,15 @@
-# [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) - Official Jekyll Version
+# [Repository of CFT HILA project's home page]
+This repository hosts [Jekyll](https://jekyllrb.com/docs/)-based 
+home page of CFT framework HILA. 
+The home page will be rendered as [Github page](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) 
+by utilizing the automation provided Github [branch deployment](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-[Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) is a stylish, responsive blog theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working contact form powered by [Formspree](https://formspree.io/).
+The template of [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) is chosen as basis of working. This template is built upon 
+[Bootstrap](https://getbootstrap.com/), which offer continent [CSS/Sass](https://en.wikipedia.org/wiki/CSS) style sheet design.
 
-This repository holds the official Jekyll version of the Clean Blog theme on Start Bootstrap!
+A pre-rendered test site can be found at [here](https://inshila-home.github.io/). 
 
-## Preview
-
-[![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)
-
-**[View Live Preview](http://StartBootstrap.github.io/startbootstrap-clean-blog-jekyll/)**
-
-## Installation & Setup
-
-### Using RubyGems
-
-When installing the theme using RubyGems, demo images, posts, and pages are not included. Follow the instructions below for complete setup.
-
-1. (Optional) Create a new Jekyll site: `jekyll new my-site`
-2. Replace the current theme in your `Gemfile` with `gem "jekyll-theme-clean-blog"`.
-3. Install the theme (run the command inside your site directory): `bundle install`
-4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-clean-blog`.
-5. Build your site: `bundle exec jekyll serve`
+## Structure of site source tree and User guide
 
 Assuming there are no errors and the site is building properly, follow these steps next:
 
@@ -108,27 +97,6 @@ Assuming there are no errors and the site is building properly, follow these ste
     Make sure you have the `email` setting in your `_config.yml` file set to a working email address! Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
 
 6. Build your site: `bundle exec jekyll serve`
-
-### Using Core Files
-
-When using the core files, the demo images, posts, and pages are all included with the download. After following the instructions below, you can then go and change the content of the pages and posts.
-
-1. [Download](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
-2. Update the following configuration settings in your `_config.yml` file:
-
-    * `baseurl`
-    * `url`
-    * `title`
-    * `email` (after setting this setting to a working email address, fill out the form on the contact page and send it - then check your email and verify the address and the form will send you messages when used)
-    * `description`
-    * `author`
-    * `twitter_username` (Optional)
-    * `facebook_username` (Optional)
-    * `github_username` (Optional)
-    * `linkedin_username` (Optional)
-    * `instagram_username` (Optional)
-
-3. Build your site: `bundle exec jekyll serve`
 
 ## Bugs and Issues
 
