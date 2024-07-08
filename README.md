@@ -1,4 +1,4 @@
-# [Repository of CFT HILA project's home page]
+# Repository of CFT HILA project's home page
 This repository hosts [Jekyll](https://jekyllrb.com/docs/)-based 
 home page of CFT framework HILA. 
 The home page will be rendered as [Github page](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) 
@@ -96,26 +96,21 @@ Assuming there are no errors and the site is building properly, follow these ste
 
     Make sure you have the `email` setting in your `_config.yml` file set to a working email address! Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
 
-6. Build your site: `bundle exec jekyll serve`
+### Default _config.yml keywords
 
-## Bugs and Issues
+Update the following configuration settings in `_config.yml` file to control the information flow:
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/issues) here on GitHub!
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* <https://startbootstrap.com>
-* <https://twitter.com/SBootstrap>
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
-
-* <http://davidmiller.io>
-* <https://twitter.com/davidmillerhere>
-* <https://github.com/davidtmiller>
-
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+    * `baseurl`
+    * `url`
+    * `title`
+    * `email` (after setting this setting to a working email address, fill out the form on the contact page and send it - then check your email and verify the address and the form will send you messages when used)
+    * `description`
+    * `author`
+    * `twitter_username` (Optional)
+    * `facebook_username` (Optional)
+    * `github_username` (Optional)
+    * `linkedin_username` (Optional)
+    * `instagram_username` (Optional)
 
 ## Copyright and License
 
