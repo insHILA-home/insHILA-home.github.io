@@ -3,11 +3,11 @@ pub:
     authors: 'Mark Hindmarsh, J. A. Sauls, Kuang Zhang, S. Autti, Richard P. Haley, Petri J. Heikkinen, Stephan J. Huber, Lev V. Levitin, Asier Lopez-Eiguren, Adam J. Mayer, Kari Rummukainen, John Saunders & Dmitry Zmeev.',
     title:   'A-B Transition in Superfluid He and Cosmological Phase Transitions',
     journal: 'J Low Temp Phys 215, 495–524 (2024).',
-    dio:     'https://doi.org/10.1007/s10909-024-03151-9'
+    doi:     'https://doi.org/10.1007/s10909-024-03151-9'
   }
 - {
     authors: 'M. Laine, L. Niemi, S. Procacci & K. Rummukainen.',
     title:   'Shape of the hot topological charge density spectral function.',
     journal: 'J. High Energ. Phys. 2022, 126 (2022).',
-    dio:     'https://doi.org/10.1007/JHEP11(2022)126'
+    doi:     'https://doi.org/10.1007/JHEP11(2022)126'
   }

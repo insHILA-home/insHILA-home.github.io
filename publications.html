@@ -7,14 +7,20 @@ background: '/img/AxionStringNetwork.jpg'
 
 <p>
 HILA's APIs have wild range of applications. They can be used for case as simple as solving a partial differential equation,
-and also fully support Monte Carlo simulations of a lagrangian. Here is the list of work built upon HILA. 
+and also fully support Monte Carlo simulations of lagrangian appearing in QFT and statistics. Here is the list of work built upon HILA. 
 </p>
  
 <div class="row g-5 mb-5">
     <div>
       <h4 class="fw-normal border-bottom pb-3 mb-5">List of Publications</h4>
         {% for item in site.data.publist.pub %}
-          <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+          <a href="{{ item.doi }}">
+            <h5>{{ item.title }}</h5>
+          </a>
+          <p>
+            {{ item.authors }}
+            {{ item.journal }}
+          </p>
         {% endfor %}
     </div>
 </div>
