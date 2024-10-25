@@ -1,5 +1,10 @@
 pub:
 - {
+    authors: 'Jose Correia, Mark Hindmarsh, Joanes Lizarraga, Asier Lopez-Eiguren, Kari Rummukainen,and Jon Urrestilla',
+    title:   'Scaling density of axion strings in terasite simulations',
+    doi:     'https://doi.org/10.48550/arXiv.2410.18064'
+  }
+- {
     authors: 'Mark Hindmarsh, J. A. Sauls, Kuang Zhang, S. Autti, Richard P. Haley, Petri J. Heikkinen, Stephan J. Huber, Lev V. Levitin, Asier Lopez-Eiguren, Adam J. Mayer, Kari Rummukainen, John Saunders & Dmitry Zmeev.',
     title:   'A-B Transition in Superfluid He and Cosmological Phase Transitions',
     journal: 'J Low Temp Phys 215, 495–524 (2024).',
